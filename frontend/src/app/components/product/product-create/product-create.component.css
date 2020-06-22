@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+button {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}

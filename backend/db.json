@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": "9879.89"
+    },
+    {
+      "id": 3,
+      "name": "Samsung S20+ Ultra",
+      "price": "7520.89"
+    },
+    {
+      "name": "Laptop ASUS",
+      "price": "2328.49",
+      "id": 4
+    },
+    {
+      "name": "Monitor Samsung 42'",
+      "price": "1678.97",
+      "id": 5
+    },
+    {
+      "name": "SSD 480GB Kingston",
+      "price": "489.95",
+      "id": 6
+    },
+    {
+      "name": "Mouse SteelSeries",
+      "price": "224.87",
+      "id": 7
+    },
+    {
+      "name": "Teclado Multilaser",
+      "price": "49.95",
+      "id": 8
+    }
+  ]
+}
