@@ -1,6 +1,6 @@
 # Backend
 
-This API Rest Server was created using the [JSON Server] (npm install json-server) for data storage.
+This API Rest Server was created using JSON Server for data storage.
 
 ## Starting JSON Server
 

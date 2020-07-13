@@ -14,3 +14,7 @@ button {
   font-weight: 300;
   line-height: 1.2;
 }
+
+.form-field {
+  margin: 3px 0px;
+}

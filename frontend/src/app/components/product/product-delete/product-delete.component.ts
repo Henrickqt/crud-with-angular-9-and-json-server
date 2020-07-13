@@ -1,5 +1,6 @@
-import { Router, ActivatedRoute } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+
 import { ProductService } from './../product.service';
 import { Product } from './../product.model';
 
@@ -11,13 +12,16 @@ import { Product } from './../product.model';
 export class ProductDeleteComponent implements OnInit {
   product: Product = {
     name: '',
-    price: null
+    price: null,
+    description: '',
+    discount: null,
+    priceWithDiscount: null
   };
 
   constructor(
-    private productService: ProductService,
-    private router: Router,
-    private route: ActivatedRoute
+    private productService: ProductService, 
+    private router: Router, 
+    private route: ActivatedRoute 
   ) { }
 
   ngOnInit(): void {

@@ -2,43 +2,99 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta BIC Preta",
-      "price": 5.89
+      "name": "Caneta BIC Azul",
+      "description": "Integer at nibh eget dolor accumsan condimentum. Donec vitae fringilla metus. Vestibulum condimentum sed nibh quis hendrerit. Vestibulum vel efficitur nunc. Duis dignissim, velit id varius lobortis, augue lectus finibus massa, in mattis nulla nibh vel purus.",
+      "price": 5.89,
+      "priceWithDiscount": 0,
+      "discount": 100
     },
     {
       "id": 2,
       "name": "Notebook Mac Pro",
-      "price": "9879.89"
+      "price": 9879.89,
+      "description": "Pellentesque sed interdum odio. Quisque sem quam, tristique sed facilisis at, posuere a ante. Quisque eu efficitur velit, sed dictum justo. Nunc ullamcorper hendrerit diam, et tincidunt massa luctus vel. Morbi ut erat viverra justo pulvinar volutpat non a leo. Morbi bibendum eros eget elit efficitur pretium.",
+      "priceWithDiscount": 7903.91,
+      "discount": 20
     },
     {
       "id": 3,
       "name": "Samsung S20+ Ultra",
-      "price": "7520.89"
+      "price": "7520.89",
+      "description": "Donec dapibus orci sed metus dictum fermentum. Suspendisse nec convallis enim. Sed posuere maximus lorem, a condimentum magna ultrices ut.",
+      "discount": 25,
+      "priceWithDiscount": 5640.67
     },
     {
       "name": "Laptop ASUS",
-      "price": "2328.49",
-      "id": 4
+      "price": 2328.49,
+      "id": 4,
+      "priceWithDiscount": 0,
+      "description": "Nullam a fermentum arcu. Mauris luctus nibh ut nunc accumsan iaculis. Nunc purus dolor, efficitur et rutrum sit amet, facilisis in ipsum. Maecenas maximus velit eget tempus bibendum.",
+      "discount": 100
     },
     {
       "name": "Monitor Samsung 42'",
       "price": "1678.97",
-      "id": 5
+      "id": 5,
+      "description": "Vivamus leo metus, bibendum ut malesuada ut, convallis quis velit. Aliquam velit lorem, mollis porttitor turpis eu, pharetra pretium leo. Sed suscipit mi metus, id tristique nisi hendrerit sodales.",
+      "discount": 5,
+      "priceWithDiscount": 1595.02
     },
     {
       "name": "SSD 480GB Kingston",
       "price": "489.95",
-      "id": 6
+      "id": 6,
+      "description": "Nunc eget quam consectetur, consectetur enim sed, dapibus enim.",
+      "discount": 15,
+      "priceWithDiscount": 416.46
     },
     {
       "name": "Mouse SteelSeries",
       "price": "224.87",
-      "id": 7
+      "id": 7,
+      "discount": 0,
+      "priceWithDiscount": 224.87,
+      "description": "Nunc tempus sollicitudin enim quis feugiat. Proin semper nulla et risus commodo sagittis. Sed laoreet vulputate pharetra. Phasellus tempor sodales ante vitae facilisis. Nulla non nunc ut purus interdum sodales. Nunc in rutrum urna."
     },
     {
       "name": "Teclado Multilaser",
       "price": "49.95",
-      "id": 8
+      "id": 8,
+      "discount": 50,
+      "priceWithDiscount": 24.98,
+      "description": "Fusce magna nulla, sodales a leo et, placerat aliquet odio. Donec sit amet tempor risus."
+    },
+    {
+      "name": "Processador Ryzen",
+      "price": 3341.06,
+      "description": "In nibh erat, hendrerit at urna a, eleifend bibendum odio. Suspendisse faucibus dolor mi. Ut tempor lectus sed posuere pellentesque.",
+      "discount": 15,
+      "priceWithDiscount": 2839.9,
+      "id": 9
+    },
+    {
+      "name": "Computador HP Pro",
+      "price": 2420.95,
+      "description": "Vivamus auctor tincidunt enim vitae finibus. Proin ullamcorper turpis venenatis nunc sodales aliquam. Aenean ut tempus massa, id tristique ex. Integer in tristique est. Proin dictum turpis eget sollicitudin cursus. In hac habitasse platea dictumst.",
+      "discount": 8,
+      "priceWithDiscount": 2227.27,
+      "id": 10
+    },
+    {
+      "name": "Amazon Smart Home Alexa",
+      "price": 369.9,
+      "description": "Sed pellentesque consequat lorem quis aliquet. Suspendisse vitae euismod tortor. Etiam eu quam orci.",
+      "discount": 40,
+      "priceWithDiscount": 221.94,
+      "id": 11
+    },
+    {
+      "name": "Smartwatch Xiaomi",
+      "price": 349,
+      "description": "Nullam feugiat nec libero a pellentesque. In varius eros in magna porta commodo. Nulla auctor, nunc ut euismod condimentum, risus ipsum dapibus quam, ac interdum ligula justo et ex.",
+      "discount": 28,
+      "priceWithDiscount": 251.28,
+      "id": 12
     }
   ]
 }

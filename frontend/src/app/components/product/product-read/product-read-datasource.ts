@@ -10,7 +10,7 @@ import { Product } from './../product.model';
  * encapsulate all logic for fetching and manipulating the displayed data
  * (including sorting, pagination, and filtering).
  */
-export class ProductRead2DataSource extends DataSource<Product> {
+export class ProductReadDataSource extends DataSource<Product> {
   data: Product[];
   paginator: MatPaginator;
   sort: MatSort;
@@ -65,9 +65,12 @@ export class ProductRead2DataSource extends DataSource<Product> {
     return data.sort((a, b) => {
       const isAsc = this.sort.direction === 'asc';
       switch (this.sort.active) {
-        case 'name': return compare(a.name, b.name, isAsc);
         case 'id': return compare(+a.id, +b.id, isAsc);
+        case 'name': return compare(a.name.toLowerCase(), b.name.toLowerCase(), isAsc);
         case 'price': return compare(+a.price, +b.price, isAsc);
+        case 'description': return compare(a.description.toLowerCase(), b.description.toLowerCase(), isAsc);
+        case 'discount': return compare(+a.discount, +b.discount, isAsc);
+        case 'priceWithDiscount': return compare(+a.priceWithDiscount, +b.priceWithDiscount, isAsc);
         default: return 0;
       }
     });
